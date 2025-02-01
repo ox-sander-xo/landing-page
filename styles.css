@@ -91,6 +91,7 @@ a {
     color: #fef5e1;
     border-color:#fe8c5a;
     background-color: #fe8c5a;
+    cursor: pointer;
 }
 .hero-img {
     flex-shrink: 0;
@@ -195,12 +196,14 @@ h3, .calendar-directions {
 .book {
     display: flex;
     align-items: center;
+    font-weight: 900;
     color: #fff9e8;
     padding: 4px 18px;
     max-height: 12px;
     background-color:#fe8c5a;
     border: solid #fff9e8 1px;
-    border-radius: 4px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 footer {
